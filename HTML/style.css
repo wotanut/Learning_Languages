@@ -1,0 +1,29 @@
+div {
+    background-color: #39f;
+    color: #FFFF;
+    width: 50%;
+    display: inline;
+    border: solid 1px #333;
+    cursor: pointer;
+}
+.heading {
+    color: #39f;
+}
+h1{
+    color: #7777;
+}
+body {
+    background-color: #ccc;
+}
+h1,h2 {
+    color: rgb(255, 0, 0);
+}
+#u {
+    color: teal;
+}
+.desc {
+    color: black;
+}
+img[src="https://images-ext-2.discordapp.net/external/CJGxt401iXx4LhmQi_vTyEqhEf_sGzS-wnDwL18fnR0/%3Fsize%3D128/https/cdn.discordapp.com/avatars/705798778472366131/84683f75f581a951dac0850aea2f32ec.png"]{
+    border: solid 3px #39f;
+}
