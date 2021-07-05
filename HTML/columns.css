@@ -1,0 +1,34 @@
+.columns {
+    border: solid 1px #39f;
+    display: flex;
+}
+.columns > div {
+    border: solid 1px #cccc;
+    flex: 1;
+}
+
+.columns > div:nth-of-type(2){
+    flex: 2;
+}
+
+.desktop, .print {
+    display: none;
+}
+
+@media print{
+    .mobile, .desktop{
+        display:none
+    }
+    .print{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+}
